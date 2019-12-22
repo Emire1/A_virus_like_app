@@ -1,5 +1,5 @@
 import Multi_Object_Detect_Function as mod
-from browsers_detector import open_link
+from browsers_detector import *
 from pyautogui import *
 from time import sleep
 
@@ -29,8 +29,13 @@ for key, value in result_dict.items():
         average_width = (left + right)/2
         average_height = (top + bottom)/2
         break
-sleep(2)
-moveTo(average_width, average_height, duration=1)
+    else:
+        open_with_start("Brockport.open.suny.edu")
+        send_email("Hello")
+        break
+
+sleep(3)
+moveTo(average_width, average_height)
 doubleClick()
 open_link("brockport.open.suny.edu")
-press("enter")
+send_email("Hello")
