@@ -1,4 +1,6 @@
 # A_virus_like_app
-Attempt to create a virus like application to open a browser and enter a website and attempt to log in.
+Attempt to create a virus like application to open a browser and enter brockports college blackboard and attempt to log the user in.
 
-it implements an [API](https://github.com/criogenesis/Tensorflow-MachineLearning-Research/blob/master/object_tester.py) from [criogenesis](https://github.com/criogenesis) 
+the virus.py implements an [API](https://github.com/criogenesis/Tensorflow-MachineLearning-Research) from [criogenesis](https://github.com/criogenesis) 
+
+the EM_virus.py implements an [API](https://github.com/emire1/TemplateMatchResearch) from [Emmanuel Mireku](https://github.com/emire1)
